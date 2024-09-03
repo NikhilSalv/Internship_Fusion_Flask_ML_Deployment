@@ -4,6 +4,13 @@
 
 This project consists of a Machine Learning model for predicting real estate property prices using historical data. The backend is implemented in Flask, while the frontend is built using Streamlit. Users can upload CSV files containing property data, and the model will generate predictions for the selling prices.
 
+## Demo Video
+
+<video width="640" height="360" controls>
+  <source src="videos/IternshipFusion_resized.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 **Features**
 
 - File Upload: Upload CSV files containing property data.

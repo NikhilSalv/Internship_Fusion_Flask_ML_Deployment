@@ -6,13 +6,13 @@ This project consists of a Machine Learning model for predicting real estate pro
 
 **Features**
 
-> File Upload: Upload CSV files containing property data.
+- File Upload: Upload CSV files containing property data.
 
-> Prediction: Get predicted selling prices based on the historical data.
+- Prediction: Get predicted selling prices based on the historical data.
 
->Metrics Display: View model evaluation metrics.
+- Metrics Display: View model evaluation metrics.
 
->Download Predictions: Download the predictions as a CSV file.
+- Download Predictions: Download the predictions as a CSV file.
 
 **Getting Started**
 
@@ -27,7 +27,8 @@ This project consists of a Machine Learning model for predicting real estate pro
 
 You can install the necessary packages using pip:
 
->>> Image
+<img width="705" alt="Screenshot 2024-09-03 at 11 25 05" src="https://github.com/user-attachments/assets/227e1912-bc94-46f2-a3d1-4293e9403fdb">
+
 
 **Model**
 
@@ -41,7 +42,8 @@ The Flask application serves as the backend for the predictions. To run the Flas
 
 2. Run the following command:
 
->> Image
+<img width="671" alt="Screenshot 2024-09-03 at 11 25 16" src="https://github.com/user-attachments/assets/0cf477e0-cb63-4b34-b0d4-13cfe37252d0">
+
 
 The Flask server will start and listen on http://127.0.0.1:5000.
 
@@ -53,7 +55,8 @@ The Streamlit application provides the user interface for interacting with the m
 
 2. Run the following command:
 
->> Image
+<img width="669" alt="Screenshot 2024-09-03 at 11 25 24" src="https://github.com/user-attachments/assets/65eb1c0c-2c7c-4086-85e8-f6cb20ae8b5a">
+
 
 The Streamlit application will open in your web browser.
 
@@ -91,6 +94,7 @@ The following metrics are used to evaluate the performance of the model:
 
 **Folder Structure**
 
+<img width="675" alt="Screenshot 2024-09-03 at 11 25 33" src="https://github.com/user-attachments/assets/77264a8e-cf27-4903-8509-94f151c3c1b9">
 
 
 ***Usage***

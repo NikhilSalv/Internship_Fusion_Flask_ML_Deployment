@@ -3,6 +3,9 @@ import pandas as pd
 import pickle
 import numpy as np
 import io
+import streamlit as st
+
+
 
 
 app = Flask(__name__)
@@ -42,8 +45,7 @@ def predict():
     
     # Make predictions using the model
     predictions = model.predict(data)
-    # print("___Model Predicted___")
-    # print(predictions)
+
     predicted_output = pd.DataFrame({"Id":data["Id"], "Predicted_SalePrice" : predictions})
 
     # Convert DataFrame to CSV in memory
@@ -53,11 +55,6 @@ def predict():
     
     # Send the CSV file as a downloadable response
     return send_file(output, mimetype="text/csv", download_name="predictions.csv", as_attachment=True)
-
-    
-    # Return the predictions as JSON
-    # return jsonify({'predictions': predictions.tolist()})
-    # return "File Received"
 
 if __name__ == '__main__':
     app.run(debug=True)
